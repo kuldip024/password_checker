@@ -57,16 +57,20 @@ pip install flask
 # Example
 
 # How It Works
-The application uses regular expressions to evaluate the password's strength based on the following criteria:
+- **Password Submission**: The user enters a password in the provided input field.
+- **Strength Evaluation**: The backend processes the password to check its strength based on 
+predefined criteria.
+- **Crack Time Calculation**: The application calculates the possible combinations based on the password length and character set, and then estimates the time required to crack the password.
+- **Feedback**: The user receives feedback on the password's strength and the estimated time to crack it.
 
-1.Length of at least 8 characters.
-2.Contains at least one lowercase letter.
-3.Contains at least one uppercase letter.
-4.Contains at least one digit.
-5.Contains at least one special character (_@$).
-6.Does not contain spaces.
+# Why Use This Application?
+With increasing cyber threats, it is crucial to use strong and secure passwords. The Password Strength Checker not only evaluates the robustness of a password but also educates users on the importance of password complexity by providing real-time feedback and crack time estimates. This tool is perfect for individuals looking to enhance their online security and for organizations aiming to enforce strong password policies among their users.
 
-It also calculates the estimated time to crack the password based on the character set size and password length, assuming an attacker can attempt 1 billion passwords per second.
+# Technology Stack
+- **Backend**: Python with Flask framework
+- **Frontend**: HTML, CSS, and JavaScript
+- **Regular Expressions**: Used for password validation and character checks
+
 
 # Contributing
 Contributions are welcome! Please create a pull request with detailed descriptions of the changes.
