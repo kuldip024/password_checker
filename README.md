@@ -39,18 +39,17 @@ python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 3. **Install the required packages:**
-
-bash
-Copy code
-pip install flask
+   \`\`\`
+     pip install flask
+   \`\`\`
 
 # Usage
 
 **1.Run the Flask application:**
-  python app.py
+ \`\`\` python app.py \`\`\`
 
 **2.Open your web browser and navigate to:**
-  http://127.0.0.1:5000/
+  \`\`\` http://127.0.0.1:5000/ \`\`\`
 
 **3.Enter a password to check its strength and see the estimated time to crack it.**
 
