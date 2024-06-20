@@ -59,12 +59,12 @@ pip install flask
 # How It Works
 The application uses regular expressions to evaluate the password's strength based on the following criteria:
 
-Length of at least 8 characters.
-Contains at least one lowercase letter.
-Contains at least one uppercase letter.
-Contains at least one digit.
-Contains at least one special character (_@$).
-Does not contain spaces.
+1.Length of at least 8 characters.
+2.Contains at least one lowercase letter.
+3.Contains at least one uppercase letter.
+4.Contains at least one digit.
+5.Contains at least one special character (_@$).
+6.Does not contain spaces.
 
 It also calculates the estimated time to crack the password based on the character set size and password length, assuming an attacker can attempt 1 billion passwords per second.
 
